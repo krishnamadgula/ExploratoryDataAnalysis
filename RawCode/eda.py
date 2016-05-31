@@ -13,7 +13,7 @@ import numpy as np
 
 
 
-glass= pd.read_csv('C:\Users\Krishna\Desktop\Projects\Exploratory Data Analysis\glass.csv',header=None,prefix='V')
+glass= pd.read_csv('\glass.csv',header=None,prefix='V')
 glass.columns=['Id','RI','Na','Mg','Al','Si','K','Ca','Ba','Fe','Type']
 ncol1=len (glass.columns)
 glassNormalized=glass.iloc[:,1:ncol1]
